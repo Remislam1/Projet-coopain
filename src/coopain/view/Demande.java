@@ -29,20 +29,20 @@ public class Demande extends javax.swing.JFrame {
         Valider = new javax.swing.JButton();
         Abandonner = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        deAdherent = new javax.swing.JTextPane();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane2 = new javax.swing.JTextPane();
+        deSecteur = new javax.swing.JTextPane();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextPane3 = new javax.swing.JTextPane();
+        deTaureau = new javax.swing.JTextPane();
         Entete = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTextPane4 = new javax.swing.JTextPane();
+        deVache = new javax.swing.JTextPane();
         jTextField5 = new javax.swing.JTextField();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextPane5 = new javax.swing.JTextPane();
+        deRace = new javax.swing.JTextPane();
         jTextField6 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -67,11 +67,11 @@ public class Demande extends javax.swing.JFrame {
             }
         });
 
-        jScrollPane2.setViewportView(jTextPane1);
+        jScrollPane2.setViewportView(deAdherent);
 
-        jScrollPane1.setViewportView(jTextPane2);
+        jScrollPane1.setViewportView(deSecteur);
 
-        jScrollPane3.setViewportView(jTextPane3);
+        jScrollPane3.setViewportView(deTaureau);
 
         Entete.setBackground(new java.awt.Color(255,255,255,120));
         Entete.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
@@ -103,7 +103,7 @@ public class Demande extends javax.swing.JFrame {
             }
         });
 
-        jScrollPane4.setViewportView(jTextPane4);
+        jScrollPane4.setViewportView(deVache);
 
         jTextField5.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jTextField5.setText("taureau");
@@ -113,7 +113,7 @@ public class Demande extends javax.swing.JFrame {
             }
         });
 
-        jScrollPane5.setViewportView(jTextPane5);
+        jScrollPane5.setViewportView(deRace);
 
         jTextField6.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jTextField6.setText("race");
@@ -218,6 +218,7 @@ public class Demande extends javax.swing.JFrame {
 
     private void ValiderMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ValiderMouseClicked
         // TODO add your handling code here:
+        /*
         config.setMailProtocol(uiMailProtocol.getText().trim());
         config.setMailHost(uiMailHost.getText().trim());
         config.setMailPort(uiMailPort.getText().trim());
@@ -230,6 +231,7 @@ public class Demande extends javax.swing.JFrame {
         config.setSgbdUser(uiSgbdUser.getText().trim());
         config.setSgbdPass(uiSgbdMP.getText().trim());
         ConfigDAO.saveXMLFile(config);
+        */
     }//GEN-LAST:event_ValiderMouseClicked
 
     private void AbandonnerMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AbandonnerMouseClicked
@@ -295,6 +297,11 @@ public class Demande extends javax.swing.JFrame {
     private javax.swing.JButton Abandonner;
     private javax.swing.JLabel Entete;
     private javax.swing.JButton Valider;
+    private javax.swing.JTextPane deAdherent;
+    private javax.swing.JTextPane deRace;
+    private javax.swing.JTextPane deSecteur;
+    private javax.swing.JTextPane deTaureau;
+    private javax.swing.JTextPane deVache;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -305,10 +312,5 @@ public class Demande extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextPane jTextPane1;
-    private javax.swing.JTextPane jTextPane2;
-    private javax.swing.JTextPane jTextPane3;
-    private javax.swing.JTextPane jTextPane4;
-    private javax.swing.JTextPane jTextPane5;
     // End of variables declaration//GEN-END:variables
 }
