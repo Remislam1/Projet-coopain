@@ -81,12 +81,10 @@ public class UtilisateurDAO implements UtilisateurDAOInterface {
     }
 
     public static Utilisateur loginUtilisateur(String pseudo, char[] pass) {
-        Utilisateur ut = getLUtilisateur(pseudo);
-        if (ut.getUtPseudo() != null) {
-            if (!ut.verifPass(pass)) {
+        Utilisateur ut = getLUtilisateur(pseudo);      
                 ut = new Utilisateur();
-            }
-        }
+            
+        
         return ut;
 
     }

@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 import java.util.TreeMap;
 import javax.swing.JOptionPane;
 
-public class DemandeDAO implements UtilisateurDAOInterface {
+public class DemandeDAO implements DemandeDAOInterface {
 
     public void create(Demande demande) {
 
