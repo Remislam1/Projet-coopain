@@ -31,7 +31,7 @@ public class Demande extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         deAdherent = new javax.swing.JTextPane();
         jScrollPane1 = new javax.swing.JScrollPane();
-        deSecteur = new javax.swing.JTextPane();
+        dePaillette = new javax.swing.JTextPane();
         jScrollPane3 = new javax.swing.JScrollPane();
         deTaureau = new javax.swing.JTextPane();
         Entete = new javax.swing.JLabel();
@@ -41,9 +41,6 @@ public class Demande extends javax.swing.JFrame {
         jScrollPane4 = new javax.swing.JScrollPane();
         deVache = new javax.swing.JTextPane();
         jTextField5 = new javax.swing.JTextField();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        deRace = new javax.swing.JTextPane();
-        jTextField6 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,7 +66,7 @@ public class Demande extends javax.swing.JFrame {
 
         jScrollPane2.setViewportView(deAdherent);
 
-        jScrollPane1.setViewportView(deSecteur);
+        jScrollPane1.setViewportView(dePaillette);
 
         jScrollPane3.setViewportView(deTaureau);
 
@@ -80,7 +77,7 @@ public class Demande extends javax.swing.JFrame {
         Entete.setOpaque(true);
 
         jTextField1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        jTextField1.setText("secteur");
+        jTextField1.setText("Paillette");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -110,16 +107,6 @@ public class Demande extends javax.swing.JFrame {
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField5ActionPerformed(evt);
-            }
-        });
-
-        jScrollPane5.setViewportView(deRace);
-
-        jTextField6.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        jTextField6.setText("race");
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
             }
         });
 
@@ -161,16 +148,6 @@ public class Demande extends javax.swing.JFrame {
                     .addGap(22, 22, 22)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(775, Short.MAX_VALUE)))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(599, Short.MAX_VALUE)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(56, 56, 56)))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(509, Short.MAX_VALUE)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(288, 288, 288)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -201,16 +178,6 @@ public class Demande extends javax.swing.JFrame {
                     .addGap(127, 127, 127)
                     .addComponent(jTextField2)
                     .addGap(313, 313, 313)))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(137, 137, 137)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(303, Short.MAX_VALUE)))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(137, 137, 137)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(303, Short.MAX_VALUE)))
         );
 
         pack();
@@ -254,10 +221,6 @@ public class Demande extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -298,19 +261,16 @@ public class Demande extends javax.swing.JFrame {
     private javax.swing.JLabel Entete;
     private javax.swing.JButton Valider;
     private javax.swing.JTextPane deAdherent;
-    private javax.swing.JTextPane deRace;
-    private javax.swing.JTextPane deSecteur;
+    private javax.swing.JTextPane dePaillette;
     private javax.swing.JTextPane deTaureau;
     private javax.swing.JTextPane deVache;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
     // End of variables declaration//GEN-END:variables
 }

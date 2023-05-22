@@ -11,14 +11,14 @@ package coopain.model;
 public class Demande {
 
     private String adherent;
-    private String secteur;
+    private String paillette;
     private String taureau;
     private String race;
     private String vache;
 
-    public Demande(String adherent, String secteur, String taureau, String race, String vache) {
+    public Demande(String adherent, String paillette, String taureau, String race, String vache) {
         this.adherent = adherent;
-        this.secteur = secteur;
+        this.paillette = paillette;
         this.taureau = taureau;
         this.race = race;
         this.vache = vache;
@@ -35,12 +35,12 @@ public class Demande {
         this.adherent = adherent;
     }
 
-    public String getSecteur() {
-        return secteur;
+    public String getPaillette() {
+        return paillette;
     }
 
-    public void setSecteur(String secteur) {
-        this.secteur = secteur;
+    public void setPaillette(String paillette) {
+        this.paillette = paillette;
     }
 
     public String getTaureau() {
